@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstagramLBTA/ViewController.swift"
+            timestampString = "553298435.713123"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of InstagramLBTA.ViewController.emailTextField : __ObjC.UITextField"
+                  moduleName = "InstagramLBTA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikelin/Developer/Swift/LBTA/InstagramLBTA/InstagramLBTA/ViewController.swift"
+                  timestampString = "553296810.2981451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __ObjC.UITextField in variable initialization expression of InstagramLBTA.ViewController.emailTextField : __ObjC.UITextField"
+                  moduleName = "InstagramLBTA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikelin/Developer/Swift/LBTA/InstagramLBTA/InstagramLBTA/ViewController.swift"
+                  timestampString = "553296810.302829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramLBTA.ViewController.emailTextField.getter : __ObjC.UITextField"
+                  moduleName = "InstagramLBTA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikelin/Developer/Swift/LBTA/InstagramLBTA/InstagramLBTA/ViewController.swift"
+                  timestampString = "553296810.308014"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramLBTA.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; InstagramLBTA.ViewController"
+                  moduleName = "InstagramLBTA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikelin/Developer/Swift/LBTA/InstagramLBTA/InstagramLBTA/ViewController.swift"
+                  timestampString = "553296810.312608"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramLBTA.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;InstagramLBTA.ViewController&gt;"
+                  moduleName = "InstagramLBTA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikelin/Developer/Swift/LBTA/InstagramLBTA/InstagramLBTA/ViewController.swift"
+                  timestampString = "553296810.316368"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "134">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
