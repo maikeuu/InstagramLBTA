@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		A451B9022ED76681A4793528 /* Pods_InstagramLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */; };
 		C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D320F9DF5C007A6337 /* AppDelegate.swift */; };
-		C479D9D620F9DF5C007A6337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D520F9DF5C007A6337 /* ViewController.swift */; };
+		C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D520F9DF5C007A6337 /* SignUpController.swift */; };
 		C479D9D920F9DF5C007A6337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C479D9D720F9DF5C007A6337 /* Main.storyboard */; };
 		C479D9DB20F9DF64007A6337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C479D9DA20F9DF64007A6337 /* Assets.xcassets */; };
 		C479D9DE20F9DF64007A6337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C479D9DC20F9DF64007A6337 /* LaunchScreen.storyboard */; };
 		C479D9E620F9E077007A6337 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9E520F9E077007A6337 /* Extensions.swift */; };
 		C4DB49B520FA948500FADBAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4DB49B420FA948500FADBAF /* GoogleService-Info.plist */; };
+		C4DB49BB20FBF42600FADBAF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB49BA20FBF42600FADBAF /* MainTabBarController.swift */; };
+		C4DB49BD20FBF77100FADBAF /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB49BC20FBF77100FADBAF /* UserProfileController.swift */; };
+		C4DB49C020FC04B300FADBAF /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB49BF20FC04B300FADBAF /* UserProfileHeader.swift */; };
+		C4DB49C320FC212500FADBAF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB49C220FC212500FADBAF /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,17 @@
 		BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C479D9D020F9DF5C007A6337 /* InstagramLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C479D9D320F9DF5C007A6337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C479D9D520F9DF5C007A6337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C479D9D520F9DF5C007A6337 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		C479D9D820F9DF5C007A6337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C479D9DA20F9DF64007A6337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C479D9DD20F9DF64007A6337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C479D9DF20F9DF64007A6337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C479D9E520F9E077007A6337 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4DB49B420FA948500FADBAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4DB49BA20FBF42600FADBAF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C4DB49BC20FBF77100FADBAF /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		C4DB49BF20FC04B300FADBAF /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		C4DB49C220FC212500FADBAF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		C9B24A22BBC67BDA8E4CCF4A /* Pods-InstagramLBTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLBTA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLBTA/Pods-InstagramLBTA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,16 +90,36 @@
 		C479D9D220F9DF5C007A6337 /* InstagramLBTA */ = {
 			isa = PBXGroup;
 			children = (
-				C4DB49B420FA948500FADBAF /* GoogleService-Info.plist */,
+				C4DB49C120FC210500FADBAF /* Login */,
+				C4DB49BE20FC04A200FADBAF /* UserProfile */,
 				C479D9D320F9DF5C007A6337 /* AppDelegate.swift */,
-				C479D9D520F9DF5C007A6337 /* ViewController.swift */,
+				C4DB49BA20FBF42600FADBAF /* MainTabBarController.swift */,
+				C479D9E520F9E077007A6337 /* Extensions.swift */,
 				C479D9D720F9DF5C007A6337 /* Main.storyboard */,
 				C479D9DA20F9DF64007A6337 /* Assets.xcassets */,
 				C479D9DC20F9DF64007A6337 /* LaunchScreen.storyboard */,
 				C479D9DF20F9DF64007A6337 /* Info.plist */,
-				C479D9E520F9E077007A6337 /* Extensions.swift */,
+				C4DB49B420FA948500FADBAF /* GoogleService-Info.plist */,
 			);
 			path = InstagramLBTA;
+			sourceTree = "<group>";
+		};
+		C4DB49BE20FC04A200FADBAF /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB49BF20FC04B300FADBAF /* UserProfileHeader.swift */,
+				C4DB49BC20FBF77100FADBAF /* UserProfileController.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		C4DB49C120FC210500FADBAF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C479D9D520F9DF5C007A6337 /* SignUpController.swift */,
+				C4DB49C220FC212500FADBAF /* LoginController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C479D9D620F9DF5C007A6337 /* ViewController.swift in Sources */,
+				C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */,
 				C479D9E620F9E077007A6337 /* Extensions.swift in Sources */,
+				C4DB49BB20FBF42600FADBAF /* MainTabBarController.swift in Sources */,
+				C4DB49C020FC04B300FADBAF /* UserProfileHeader.swift in Sources */,
+				C4DB49BD20FBF77100FADBAF /* UserProfileController.swift in Sources */,
 				C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */,
+				C4DB49C320FC212500FADBAF /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
