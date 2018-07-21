@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A451B9022ED76681A4793528 /* Pods_InstagramLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */; };
+		C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */; };
 		C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D320F9DF5C007A6337 /* AppDelegate.swift */; };
 		C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D520F9DF5C007A6337 /* SignUpController.swift */; };
 		C479D9D920F9DF5C007A6337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C479D9D720F9DF5C007A6337 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A00190621DFF473CFA620D3A /* Pods-InstagramLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLBTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLBTA/Pods-InstagramLBTA.release.xcconfig"; sourceTree = "<group>"; };
 		BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		C479D9D020F9DF5C007A6337 /* InstagramLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C479D9D320F9DF5C007A6337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C479D9D520F9DF5C007A6337 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				C493DA7F210050F7008F7B11 /* PhotoSelectorController.swift */,
+				C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */,
 			);
 			path = AddPhoto;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */,
+				C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */,
 				C479D9E620F9E077007A6337 /* Extensions.swift in Sources */,
 				C4DB49BB20FBF42600FADBAF /* MainTabBarController.swift in Sources */,
 				C4DB49C020FC04B300FADBAF /* UserProfileHeader.swift in Sources */,
