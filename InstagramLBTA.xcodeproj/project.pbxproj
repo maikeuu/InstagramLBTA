@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A451B9022ED76681A4793528 /* Pods_InstagramLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */; };
 		C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */; };
+		C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */; };
 		C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D320F9DF5C007A6337 /* AppDelegate.swift */; };
 		C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D520F9DF5C007A6337 /* SignUpController.swift */; };
 		C479D9D920F9DF5C007A6337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C479D9D720F9DF5C007A6337 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		A00190621DFF473CFA620D3A /* Pods-InstagramLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLBTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLBTA/Pods-InstagramLBTA.release.xcconfig"; sourceTree = "<group>"; };
 		BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
+		C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
 		C479D9D020F9DF5C007A6337 /* InstagramLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C479D9D320F9DF5C007A6337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C479D9D520F9DF5C007A6337 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				C493DA7F210050F7008F7B11 /* PhotoSelectorController.swift */,
 				C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */,
+				C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */,
 			);
 			path = AddPhoto;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				C4DB49BD20FBF77100FADBAF /* UserProfileController.swift in Sources */,
 				C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */,
 				C4DB49C320FC212500FADBAF /* LoginController.swift in Sources */,
+				C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */,
 				C493DA80210050F7008F7B11 /* PhotoSelectorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
