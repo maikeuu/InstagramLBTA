@@ -10,6 +10,7 @@
 		A451B9022ED76681A4793528 /* Pods_InstagramLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */; };
 		C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */; };
 		C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */; };
+		C4254449210D519300EA15D0 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4254448210D519300EA15D0 /* SharePhotoController.swift */; };
 		C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D320F9DF5C007A6337 /* AppDelegate.swift */; };
 		C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D520F9DF5C007A6337 /* SignUpController.swift */; };
 		C479D9D920F9DF5C007A6337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C479D9D720F9DF5C007A6337 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
+		C4254448210D519300EA15D0 /* SharePhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
 		C479D9D020F9DF5C007A6337 /* InstagramLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C479D9D320F9DF5C007A6337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C479D9D520F9DF5C007A6337 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				C493DA7F210050F7008F7B11 /* PhotoSelectorController.swift */,
 				C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */,
 				C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */,
+				C4254448210D519300EA15D0 /* SharePhotoController.swift */,
 			);
 			path = AddPhoto;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4254449210D519300EA15D0 /* SharePhotoController.swift in Sources */,
 				C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */,
 				C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */,
 				C479D9E620F9E077007A6337 /* Extensions.swift in Sources */,
@@ -296,6 +300,7 @@
 		C479D9E020F9DF64007A6337 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -356,6 +361,7 @@
 		C479D9E120F9DF64007A6337 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -411,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9B24A22BBC67BDA8E4CCF4A /* Pods-InstagramLBTA.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W5LLV26X4;
@@ -430,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A00190621DFF473CFA620D3A /* Pods-InstagramLBTA.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W5LLV26X4;

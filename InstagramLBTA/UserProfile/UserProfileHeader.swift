@@ -20,6 +20,7 @@ class UserProfileHeader: UICollectionViewCell {
     let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.backgroundColor = .red
+        iv.contentMode = .scaleAspectFill
         return iv
     }()
     

@@ -14,9 +14,6 @@ class PhotoSelectorController: UICollectionViewController, UICollectionViewDeleg
     let cellID = "cellID"
     let headerID = "headerID"
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView?.backgroundColor = .white
@@ -74,6 +71,9 @@ class PhotoSelectorController: UICollectionViewController, UICollectionViewDeleg
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.selectedImage = images[indexPath.item]
         self.collectionView?.reloadData()
+        
+        let indexPath = IndexPath(item: 0, section: 0)
+        self.collectionView?.scrollToItem(at: indexPath, at: .bottom, animated: true)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
@@ -85,9 +85,12 @@ class PhotoSelectorController: UICollectionViewController, UICollectionViewDeleg
         return UIEdgeInsetsMake(1, 0, 0, 0)
     }
     
+    var header: PhotoSelectorHeader?
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerID, for: indexPath) as! PhotoSelectorHeader
+        
+        self.header = header
         header.backgroundColor = .red
         header.photoImageView.image = selectedImage
         
@@ -145,6 +148,8 @@ class PhotoSelectorController: UICollectionViewController, UICollectionViewDeleg
     
     @objc
     func handleNext() {
-        print("Handling next")
+        let sharePhotoController = SharePhotoController()
+        sharePhotoController.selectedImage = header?.photoImageView.image
+        navigationController?.pushViewController(sharePhotoController, animated: true)
     }
 }
