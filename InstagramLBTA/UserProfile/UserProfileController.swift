@@ -43,6 +43,22 @@ class UserProfileController: UICollectionViewController, UICollectionViewDelegat
         }
     }
     
+    fileprivate func fetchPosts() {
+        guard let uid = Auth.auth().currentUser?.uid else { return }
+        let ref =  Database.database().reference().child("posts").child(uid)
+        
+        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+            guard let dictionaries = snapshot.value as? [String: Any] else { return }
+            dictionaries.forEach({ (key, value) in
+                guard let dictionary = value as? [String: Any] else { return }
+                let post = Post(dictionary: dictionary)
+                self.posts.append(post)
+            })
+        }) { (err) in
+            print("Failed to fetch posts:", err)
+        }
+    }
+    
     fileprivate func setupLogOutButton() {
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "gear").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleLogOut) )
     }

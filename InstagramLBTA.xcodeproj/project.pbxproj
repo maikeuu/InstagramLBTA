@@ -14,6 +14,8 @@
 		C425444C210D5FB700EA15D0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425444B210D5FB700EA15D0 /* Post.swift */; };
 		C425444E210D614100EA15D0 /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425444D210D614100EA15D0 /* UserProfilePhotoCell.swift */; };
 		C4254451210D649100EA15D0 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4254450210D649100EA15D0 /* CustomImageView.swift */; };
+		C4254454210D68D300EA15D0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4254453210D68D300EA15D0 /* HomeController.swift */; };
+		C4254456210D69A000EA15D0 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4254455210D69A000EA15D0 /* HomePostCell.swift */; };
 		C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D320F9DF5C007A6337 /* AppDelegate.swift */; };
 		C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9D520F9DF5C007A6337 /* SignUpController.swift */; };
 		C479D9D920F9DF5C007A6337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C479D9D720F9DF5C007A6337 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		C425444B210D5FB700EA15D0 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C425444D210D614100EA15D0 /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
 		C4254450210D649100EA15D0 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		C4254453210D68D300EA15D0 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		C4254455210D69A000EA15D0 /* HomePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
 		C479D9D020F9DF5C007A6337 /* InstagramLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C479D9D320F9DF5C007A6337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C479D9D520F9DF5C007A6337 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		C4254452210D68C300EA15D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C4254453210D68D300EA15D0 /* HomeController.swift */,
+				C4254455210D69A000EA15D0 /* HomePostCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		C479D9C720F9DF5C007A6337 = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +134,13 @@
 		C479D9D220F9DF5C007A6337 /* InstagramLBTA */ = {
 			isa = PBXGroup;
 			children = (
+				C4254452210D68C300EA15D0 /* Home */,
 				C425444A210D5FA700EA15D0 /* Models */,
 				C493DA7E210050E2008F7B11 /* AddPhoto */,
 				C4DB49BE20FC04A200FADBAF /* UserProfile */,
 				C4DB49C120FC210500FADBAF /* Login */,
-				C479D9D320F9DF5C007A6337 /* AppDelegate.swift */,
 				C4DB49BA20FBF42600FADBAF /* MainTabBarController.swift */,
+				C479D9D320F9DF5C007A6337 /* AppDelegate.swift */,
 				C425444F210D647E00EA15D0 /* Utils */,
 				C479D9D720F9DF5C007A6337 /* Main.storyboard */,
 				C479D9DA20F9DF64007A6337 /* Assets.xcassets */,
@@ -298,8 +312,10 @@
 				C4DB49BD20FBF77100FADBAF /* UserProfileController.swift in Sources */,
 				C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */,
 				C4DB49C320FC212500FADBAF /* LoginController.swift in Sources */,
+				C4254456210D69A000EA15D0 /* HomePostCell.swift in Sources */,
 				C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */,
 				C493DA80210050F7008F7B11 /* PhotoSelectorController.swift in Sources */,
+				C4254454210D68D300EA15D0 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
