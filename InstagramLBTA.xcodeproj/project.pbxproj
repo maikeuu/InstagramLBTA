@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A451B9022ED76681A4793528 /* Pods_InstagramLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */; };
+		A8638BFA21221D4800C733FD /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BF921221D4800C733FD /* FirebaseUtils.swift */; };
+		A8638BFD212221DE00C733FD /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFC212221DE00C733FD /* UserSearchController.swift */; };
+		A8638BFF2122282400C733FD /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFE2122282400C733FD /* UserSearchCell.swift */; };
 		C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */; };
 		C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */; };
 		C4254449210D519300EA15D0 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4254448210D519300EA15D0 /* SharePhotoController.swift */; };
@@ -33,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		A00190621DFF473CFA620D3A /* Pods-InstagramLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLBTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLBTA/Pods-InstagramLBTA.release.xcconfig"; sourceTree = "<group>"; };
+		A8638BF921221D4800C733FD /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
+		A8638BFC212221DE00C733FD /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
+		A8638BFE2122282400C733FD /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
 		BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
@@ -89,6 +95,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A8638BFB212221C700C733FD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A8638BFC212221DE00C733FD /* UserSearchController.swift */,
+				A8638BFE2122282400C733FD /* UserSearchCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		C425444A210D5FA700EA15D0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +118,7 @@
 			children = (
 				C479D9E520F9E077007A6337 /* Extensions.swift */,
 				C4254450210D649100EA15D0 /* CustomImageView.swift */,
+				A8638BF921221D4800C733FD /* FirebaseUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -137,6 +153,7 @@
 		C479D9D220F9DF5C007A6337 /* InstagramLBTA */ = {
 			isa = PBXGroup;
 			children = (
+				A8638BFB212221C700C733FD /* Search */,
 				C4254452210D68C300EA15D0 /* Home */,
 				C425444A210D5FA700EA15D0 /* Models */,
 				C493DA7E210050E2008F7B11 /* AddPhoto */,
@@ -303,11 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8638BFF2122282400C733FD /* UserSearchCell.swift in Sources */,
+				A8638BFA21221D4800C733FD /* FirebaseUtils.swift in Sources */,
 				C4254449210D519300EA15D0 /* SharePhotoController.swift in Sources */,
 				C479D9D620F9DF5C007A6337 /* SignUpController.swift in Sources */,
 				C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */,
 				C4254451210D649100EA15D0 /* CustomImageView.swift in Sources */,
 				C425444C210D5FB700EA15D0 /* Post.swift in Sources */,
+				A8638BFD212221DE00C733FD /* UserSearchController.swift in Sources */,
 				C479D9E620F9E077007A6337 /* Extensions.swift in Sources */,
 				C425444E210D614100EA15D0 /* UserProfilePhotoCell.swift in Sources */,
 				C4254458210E8EAE00EA15D0 /* User.swift in Sources */,
