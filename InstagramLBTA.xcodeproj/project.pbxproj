@@ -13,6 +13,8 @@
 		A8638BFF2122282400C733FD /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFE2122282400C733FD /* UserSearchCell.swift */; };
 		A8638C022123457500C733FD /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638C012123457500C733FD /* CameraController.swift */; };
 		A8638C0421235F7100C733FD /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638C0321235F7100C733FD /* PreviewPhotoContainerView.swift */; };
+		A8638C06212366F500C733FD /* CustomAnimationPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638C05212366F500C733FD /* CustomAnimationPresentor.swift */; };
+		A8638C082123697200C733FD /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638C072123697200C733FD /* CustomAnimationDismisser.swift */; };
 		C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */; };
 		C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */; };
 		C4254449210D519300EA15D0 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4254448210D519300EA15D0 /* SharePhotoController.swift */; };
@@ -43,6 +45,8 @@
 		A8638BFE2122282400C733FD /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
 		A8638C012123457500C733FD /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		A8638C0321235F7100C733FD /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
+		A8638C05212366F500C733FD /* CustomAnimationPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresentor.swift; sourceTree = "<group>"; };
+		A8638C072123697200C733FD /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
 		BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 			children = (
 				A8638C012123457500C733FD /* CameraController.swift */,
 				A8638C0321235F7100C733FD /* PreviewPhotoContainerView.swift */,
+				A8638C05212366F500C733FD /* CustomAnimationPresentor.swift */,
+				A8638C072123697200C733FD /* CustomAnimationDismisser.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -343,11 +349,13 @@
 				C425444C210D5FB700EA15D0 /* Post.swift in Sources */,
 				A8638BFD212221DE00C733FD /* UserSearchController.swift in Sources */,
 				C479D9E620F9E077007A6337 /* Extensions.swift in Sources */,
+				A8638C06212366F500C733FD /* CustomAnimationPresentor.swift in Sources */,
 				A8638C022123457500C733FD /* CameraController.swift in Sources */,
 				C425444E210D614100EA15D0 /* UserProfilePhotoCell.swift in Sources */,
 				C4254458210E8EAE00EA15D0 /* User.swift in Sources */,
 				C4DB49BB20FBF42600FADBAF /* MainTabBarController.swift in Sources */,
 				C4DB49C020FC04B300FADBAF /* UserProfileHeader.swift in Sources */,
+				A8638C082123697200C733FD /* CustomAnimationDismisser.swift in Sources */,
 				C4DB49BD20FBF77100FADBAF /* UserProfileController.swift in Sources */,
 				C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */,
 				A8638C0421235F7100C733FD /* PreviewPhotoContainerView.swift in Sources */,
