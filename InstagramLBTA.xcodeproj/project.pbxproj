@@ -12,6 +12,7 @@
 		A8638BFD212221DE00C733FD /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFC212221DE00C733FD /* UserSearchController.swift */; };
 		A8638BFF2122282400C733FD /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFE2122282400C733FD /* UserSearchCell.swift */; };
 		A8638C022123457500C733FD /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638C012123457500C733FD /* CameraController.swift */; };
+		A8638C0421235F7100C733FD /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638C0321235F7100C733FD /* PreviewPhotoContainerView.swift */; };
 		C40AFADD2103F88200BE1167 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */; };
 		C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */; };
 		C4254449210D519300EA15D0 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4254448210D519300EA15D0 /* SharePhotoController.swift */; };
@@ -41,6 +42,7 @@
 		A8638BFC212221DE00C733FD /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
 		A8638BFE2122282400C733FD /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
 		A8638C012123457500C733FD /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		A8638C0321235F7100C733FD /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
 		BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AFADC2103F88200BE1167 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		C40AFADE2103FEBF00BE1167 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				A8638C012123457500C733FD /* CameraController.swift */,
+				A8638C0321235F7100C733FD /* PreviewPhotoContainerView.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				C4DB49C020FC04B300FADBAF /* UserProfileHeader.swift in Sources */,
 				C4DB49BD20FBF77100FADBAF /* UserProfileController.swift in Sources */,
 				C479D9D420F9DF5C007A6337 /* AppDelegate.swift in Sources */,
+				A8638C0421235F7100C733FD /* PreviewPhotoContainerView.swift in Sources */,
 				C4DB49C320FC212500FADBAF /* LoginController.swift in Sources */,
 				C4254456210D69A000EA15D0 /* HomePostCell.swift in Sources */,
 				C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */,
