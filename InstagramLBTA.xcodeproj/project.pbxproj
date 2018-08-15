@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A451B9022ED76681A4793528 /* Pods_InstagramLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */; };
+		A82136732124E1D700A000E3 /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82136722124E1D700A000E3 /* CommentsController.swift */; };
 		A8638BFA21221D4800C733FD /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BF921221D4800C733FD /* FirebaseUtils.swift */; };
 		A8638BFD212221DE00C733FD /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFC212221DE00C733FD /* UserSearchController.swift */; };
 		A8638BFF2122282400C733FD /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFE2122282400C733FD /* UserSearchCell.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		A00190621DFF473CFA620D3A /* Pods-InstagramLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLBTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLBTA/Pods-InstagramLBTA.release.xcconfig"; sourceTree = "<group>"; };
+		A82136722124E1D700A000E3 /* CommentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
 		A8638BF921221D4800C733FD /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
 		A8638BFC212221DE00C733FD /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
 		A8638BFE2122282400C733FD /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			children = (
 				C4254453210D68D300EA15D0 /* HomeController.swift */,
 				C4254455210D69A000EA15D0 /* HomePostCell.swift */,
+				A82136722124E1D700A000E3 /* CommentsController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				C4DB49C320FC212500FADBAF /* LoginController.swift in Sources */,
 				C4254456210D69A000EA15D0 /* HomePostCell.swift in Sources */,
 				C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */,
+				A82136732124E1D700A000E3 /* CommentsController.swift in Sources */,
 				C493DA80210050F7008F7B11 /* PhotoSelectorController.swift in Sources */,
 				C4254454210D68D300EA15D0 /* HomeController.swift in Sources */,
 			);
