@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A451B9022ED76681A4793528 /* Pods_InstagramLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6DE7146BD86B93A1344C2 /* Pods_InstagramLBTA.framework */; };
 		A82136732124E1D700A000E3 /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82136722124E1D700A000E3 /* CommentsController.swift */; };
+		A82136752124ECB600A000E3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82136742124ECB600A000E3 /* CommentCell.swift */; };
+		A82136772124EEB800A000E3 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82136762124EEB800A000E3 /* Comment.swift */; };
 		A8638BFA21221D4800C733FD /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BF921221D4800C733FD /* FirebaseUtils.swift */; };
 		A8638BFD212221DE00C733FD /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFC212221DE00C733FD /* UserSearchController.swift */; };
 		A8638BFF2122282400C733FD /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8638BFE2122282400C733FD /* UserSearchCell.swift */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		A00190621DFF473CFA620D3A /* Pods-InstagramLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLBTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLBTA/Pods-InstagramLBTA.release.xcconfig"; sourceTree = "<group>"; };
 		A82136722124E1D700A000E3 /* CommentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
+		A82136742124ECB600A000E3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		A82136762124EEB800A000E3 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		A8638BF921221D4800C733FD /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
 		A8638BFC212221DE00C733FD /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
 		A8638BFE2122282400C733FD /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 			children = (
 				C425444B210D5FB700EA15D0 /* Post.swift */,
 				C4254457210E8EAE00EA15D0 /* User.swift */,
+				A82136762124EEB800A000E3 /* Comment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				C4254453210D68D300EA15D0 /* HomeController.swift */,
 				C4254455210D69A000EA15D0 /* HomePostCell.swift */,
 				A82136722124E1D700A000E3 /* CommentsController.swift */,
+				A82136742124ECB600A000E3 /* CommentCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -356,6 +362,7 @@
 				A8638C022123457500C733FD /* CameraController.swift in Sources */,
 				C425444E210D614100EA15D0 /* UserProfilePhotoCell.swift in Sources */,
 				C4254458210E8EAE00EA15D0 /* User.swift in Sources */,
+				A82136752124ECB600A000E3 /* CommentCell.swift in Sources */,
 				C4DB49BB20FBF42600FADBAF /* MainTabBarController.swift in Sources */,
 				C4DB49C020FC04B300FADBAF /* UserProfileHeader.swift in Sources */,
 				A8638C082123697200C733FD /* CustomAnimationDismisser.swift in Sources */,
@@ -367,6 +374,7 @@
 				C40AFADF2103FEBF00BE1167 /* PhotoSelectorHeader.swift in Sources */,
 				A82136732124E1D700A000E3 /* CommentsController.swift in Sources */,
 				C493DA80210050F7008F7B11 /* PhotoSelectorController.swift in Sources */,
+				A82136772124EEB800A000E3 /* Comment.swift in Sources */,
 				C4254454210D68D300EA15D0 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
