@@ -165,7 +165,7 @@ class SignUpController: UIViewController, UIImagePickerControllerDelegate, UINav
             signupButton.backgroundColor = UIColor.rgb(red: 17, green: 154, blue: 237)
         } else {
             signupButton.isEnabled = false
-            signupButton.backgroundColor = UIColor.rgb(red: 149, green: 204, blue: 244)
+            signupButton.backgroundColor = UIColor.mainBlue()
         }
     }
 
